@@ -37,11 +37,11 @@ Print the expiration times for one or more certificates listed in ssldomains:
 $ ssl-cert-check -f ssldomains
 Host                                            Status       Expires      Days Left
 ----------------------------------------------- ------------ ------------ ----------
-www.prefetch.com:443                            Valid        May 23 2006  218
-mail.prefetch.net:993                           Valid        Jun 20 2006  246
-gmail.google.com:443                            Valid        Jun 7 2006   233
-www.sun.com:443                                 Valid        May 11 2009  1302
-www.spotch.com:443                              Connection refused Unknown Unknown
+www.prefetch.com 443                            Valid        May 23 2006  218
+mail.prefetch.net 993                           Valid        Jun 20 2006  246
+gmail.google.com 443                            Valid        Jun 7 2006   233
+www.sun.com 443                                 Valid        May 11 2009  1302
+www.spotch.com 443                              Connection refused Unknown Unknown
 </pre>
 
 Check all certificates with file pattern "/etc/haproxy/ssl/\*.pem"
